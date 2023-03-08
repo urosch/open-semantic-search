@@ -52,7 +52,7 @@ How to build an *Open Semantic Desktop Search* Appliance for *Virtual Box* is do
 
 ## Build docker images
 
-Build the Docker images using the default docker-compose config <code>[docker-compose.yml](docker-compose.yml)</code>:
+Build the Docker images using the default docker-compose config <code>[docker-compose.yml](docker-compose-star.yml)</code>:
 
 ```
 docker-compose build
@@ -60,7 +60,7 @@ docker-compose build
 
 ## Run docker containers
 
-After these builds all the Docker images/dependencies/services can be started together by docker-compose with the config file <code>[docker-compose.yml](docker-compose.yml)</code>.
+After these builds all the Docker images/dependencies/services can be started together by docker-compose with the config file <code>[docker-compose.yml](docker-compose-star.yml)</code>.
 
 You can start the whole environment by
 

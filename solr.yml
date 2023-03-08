@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+  solr:
+    image: solr:9.1.1
+    #image: solr:8.11.1
+    #image: solr:8.6.3
+    #image: opensemanticsearch/solr
+    build:
+      context: src/solr.deb/
+    environment:
+      - SOLR_LOCAL_HOST=0.0.0.0
+    volumes:
+      #- data_solr:/var/solr
+      - ~/OSSA/data_solr:/mnt/data_solr
+      - ~/OSSA/data_solr:/var/solr
+      - ~/OSSA/izvidi:/mnt/izvidi
+    # uncomment next two lines, if you want access the Solr API and admin UI on host IP
+    ports:
+      - "8983:8983"

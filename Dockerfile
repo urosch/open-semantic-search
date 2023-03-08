@@ -26,6 +26,7 @@ RUN apt-get update && apt-get install --no-install-recommends --yes \
     python3-setuptools \
     python3-wheel \
     python3-dev \
+    build-essential \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # install django-import-export
