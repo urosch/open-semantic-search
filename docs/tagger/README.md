@@ -1,11 +1,10 @@
 ---
-title: Open Semantic Tagger
-authors:
+title: Open Semantic Tagger  
+authors:  
     - Markus Mandalka
 ---
 
 # Open Semantic Tagger
-
 
 Tagger is a light weight responsive web app for tagging web pages and documents.
 
